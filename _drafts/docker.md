@@ -8,7 +8,7 @@
 
 安装界面：
 
-![](docker/image-20211109114836825.png)
+![](http://img.90byte.com/fromPicGo/202111241349740.png)
 
 
 
@@ -16,15 +16,15 @@
 
 安装 Ubuntu
 
-![](docker/image-20211109130132539.png)
+![](http://img.90byte.com/fromPicGo/202111241349098.png)
 
-![](docker/image-20211109130252756.png)
+![](http://img.90byte.com/fromPicGo/202111241349114.png)
 
 #### 安装 ruby
 
 安装 ruby 的命令： `sudo apt install ruby`
 
-![](docker/image-20211109131318873.png)
+![](http://img.90byte.com/fromPicGo/202111241628951.png)
 
 安装 `gem install bundler jekyll`，安装完成，进入项目目录
 
