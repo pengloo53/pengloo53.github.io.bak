@@ -25,6 +25,7 @@ Gemfile.lock
 _site/
 .jekyll-metadata
 .jekyll-cache/
+.github/
 
 .markeditor
 .Archive
