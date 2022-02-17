@@ -119,6 +119,17 @@ git init #初始化
 git remote add origin root@xxx.xxx.xxx.xxx:/www/repo/xxx.git #关联远程仓库
 ```
 
+
+
+```bash
+git remote set-url orgin root@xxx.xxx.xxx.xxx:/www/repo/xxx.git #修改远程仓库地址
+
+```
+
+
+
+
+
 #### 分支查看与创建
 
 `git branch` 查看本地分支
@@ -166,4 +177,28 @@ git remote add origin root@xxx.xxx.xxx.xxx:/www/repo/xxx.git #关联远程仓库
 - [自建Github Pages · Bing's Blog](https://azmddy.github.io/article/%E5%85%B6%E5%AE%83/%E8%87%AA%E5%BB%BAgithubpages.html)
 - [linux搭建git服务器_fenlin88l的博客-CSDN博客_linux安装git服务器](https://blog.csdn.net/fenlin88l/article/details/89151075?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link)
 - [git利用post-receive自动化部署_weixin_33816300的博客-CSDN博客](https://blog.csdn.net/weixin_33816300/article/details/89009334)
+
+
+
+
+
+> zsh: /usr/bin/yum: bad interpreter: /usr/bin/python: 没有那个文件或目录
+
+yum 没有配置正确，多半是安装 python 环境导致
+
+
+
+[使用yum命令的时候报，-bash: /usr/bin/yum: /usr/bin/python: bad interpreter: 没有那个文件或目录_anning_88的专栏-CSDN博客](https://blog.csdn.net/anning_88/article/details/75735757)
+
+
+
+[CentOS 7 使用 rvm 安装 ruby 搭建 jekyll 环境 - Zhanming's blog](https://qizhanming.com/blog/2017/05/31/install-rvm-and-ruby-buid-jeklly-env-on-centos-7)
+
+
+
+版本依赖关系查看
+
+[jekyll | RubyGems.org | Ruby 社群 Gem 套件管理平台](https://rubygems.org/gems/jekyll/versions/4.2.1)
+
+
 
