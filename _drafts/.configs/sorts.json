@@ -1,0 +1,37 @@
+{
+    "": [
+        "20210603-content.md", 
+        "20210508.md", 
+        "20210512-kindle-export.md", 
+        "inbox", 
+        "2021-05-18-kindle2flomo.assets", 
+        "20210508.assets", 
+        "20210512-kindle-export.assets", 
+        "20210603-content.assets"
+    ], 
+    "__positions": {
+        "20210512-kindle-export.md": 3, 
+        "inbox/\u6d4b\u8bd5\u4e00\u4e0b.md": 4001, 
+        "2021-05-18-kindle2flomo.assets": 5, 
+        "20210603-content.md": 1, 
+        "20210508.md": 2, 
+        "20210512-kindle-export.assets": 7, 
+        "20210508.assets": 6, 
+        "20210603-content.assets": 8, 
+        "inbox": 4
+    }, 
+    "inbox": [
+        "\u6d4b\u8bd5\u4e00\u4e0b.md"
+    ], 
+    "__raw_positions": {
+        "20210512-kindle-export.md": 3, 
+        "inbox/\u6d4b\u8bd5\u4e00\u4e0b.md": 1, 
+        "2021-05-18-kindle2flomo.assets": 5, 
+        "20210603-content.md": 1, 
+        "20210603-content.assets": 8, 
+        "20210508.md": 2, 
+        "20210512-kindle-export.assets": 7, 
+        "20210508.assets": 6, 
+        "inbox": 4
+    }
+}
