@@ -1,7 +1,7 @@
 ---
 title: 初步使用云函数开发
 date: 2019-09-11
-permalink: /collection/miniprogram/09_cloud_function_develop
+tags: 微信小程序
 ---
 
 上一篇内容，我们初次接触了网络开发，使用第三方的接口数据，由于微信公众账号的限制与管控，在线使用第三方的服务器，都必须要添加合法域名信息，如下图所示：

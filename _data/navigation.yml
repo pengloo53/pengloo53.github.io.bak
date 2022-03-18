@@ -31,15 +31,16 @@ header:
       # @end locale config
     url: /archive.html
   - titles:
-      en      : &EN       Tech
-      zh-Hans : &ZH_HANS  技术
-      zh      : *ZH_HANS
-    url: /collection/tech_notes/2014-05-04-Linux_basic
-  - titles:
       en      : &EN       Product
       zh-Hans : &ZH_HANS  产品
       zh      : *ZH_HANS
     url: /product.html
+  - titles:
+      en      : &EN       Tech
+      zh-Hans : &ZH_HANS  技术
+      zh      : *ZH_HANS
+    url: /collection/tech_notes/2014-05-04-Linux_basic
+  
   - title: 小专栏
     url: https://xiaozhuanlan.com/lupeng?rel=lupeng
   - titles:
@@ -67,41 +68,41 @@ header:
       # @end locale config
     url: https://lupeng.notion.site/5265dab391574a0ab3be5c255d287d72
 
-collection-miniprogram:
-  - title:      开始
-    children:
-      - title:  前言
-        url:    /collection/miniprogram/00_introduction
-      - title:  最佳实践
-        url:    /collection/miniprogram/00_first
-  - title:      入门篇
-    children:
-      - title:  了解小程序的页面逻辑
-        url:    /collection/miniprogram/01_know_page
-      - title:  Hello, World | 写一个完整的页面
-        url:    /collection/miniprogram/02_first_page
-      - title:  实现页面交互 | 地图 API 的使用
-        url:    /collection/miniprogram/03_map_api_use
-      - title:  数据持久化保存 | Storage API 的使用
-        url:    /collection/miniprogram/04_storage_use
-      - title:  生成分享卡片 | Canvas 初使用
-        url:    /collection/miniprogram/05_canvas_first_use
-      - title:  页面数据（参数）传输的方式
-        url:    /collection/miniprogram/06_send_param_in_pages
-      - title:  如何使用第三方 npm 扩展包
-        url:    /collection/miniprogram/07_use_npm_package
-      - title:  如何调用第三方接口数据
-        url:    /collection/miniprogram/08_use_the_third_data
-      - title:  初步使用云函数开发
-        url:    /collection/miniprogram/09_cloud_function_develop
-      - title:  学会云函数的本地以及云端的测试
-        url:    /collection/miniprogram/10_cloud_function_test
-      - title:  从文档出发来聊一聊小程序的服务端开发
-        url:    /collection/miniprogram/11_cloud_develop_document
-      - title:  初步使用云开发中数据库的能力
-        url:    /collection/miniprogram/12_cloud_database_develop
-  - title:      效率篇
-  - title:      实战篇
+# collection-miniprogram:
+#   - title:      开始
+#     children:
+#       - title:  前言
+#         url:    /collection/miniprogram/00_introduction
+#       - title:  最佳实践
+#         url:    /collection/miniprogram/00_first
+#   - title:      入门篇
+#     children:
+#       - title:  了解小程序的页面逻辑
+#         url:    /collection/miniprogram/01_know_page
+#       - title:  Hello, World | 写一个完整的页面
+#         url:    /collection/miniprogram/02_first_page
+#       - title:  实现页面交互 | 地图 API 的使用
+#         url:    /collection/miniprogram/03_map_api_use
+#       - title:  数据持久化保存 | Storage API 的使用
+#         url:    /collection/miniprogram/04_storage_use
+#       - title:  生成分享卡片 | Canvas 初使用
+#         url:    /collection/miniprogram/05_canvas_first_use
+#       - title:  页面数据（参数）传输的方式
+#         url:    /collection/miniprogram/06_send_param_in_pages
+#       - title:  如何使用第三方 npm 扩展包
+#         url:    /collection/miniprogram/07_use_npm_package
+#       - title:  如何调用第三方接口数据
+#         url:    /collection/miniprogram/08_use_the_third_data
+#       - title:  初步使用云函数开发
+#         url:    /collection/miniprogram/09_cloud_function_develop
+#       - title:  学会云函数的本地以及云端的测试
+#         url:    /collection/miniprogram/10_cloud_function_test
+#       - title:  从文档出发来聊一聊小程序的服务端开发
+#         url:    /collection/miniprogram/11_cloud_develop_document
+#       - title:  初步使用云开发中数据库的能力
+#         url:    /collection/miniprogram/12_cloud_database_develop
+#   - title:      效率篇
+#   - title:      实战篇
 
 collection-tech: 
   - title: Linux
@@ -124,23 +125,49 @@ collection-tech:
         url: /collection/tech_notes/2018-07-27-centos7-prestashop
       - title: 为了写操作手册，顺手搭了个文档管理系统
         url: /collection/tech_notes/2018-12-12-mindoc
-  - title: Git
+  - title: Tools
     children: 
       - title: Git 基础
         url: /collection/tech_notes/2014-05-16-Git-common
       - title: Git 进阶
         url: /collection/tech_notes/2015-12-14-Git_advance
-  - title: Vim
-    children: 
       - title: Vim 基础
         url: /collection/tech_notes/2014-07-05-Vim_basic
       - title: Vim 进阶
         url: /collection/tech_notes/2014-10-19-Vim_plugin
-  - title: tmux
-    children: 
       - title: tmux 基础操作
         url: /collection/tech_notes/2016-08-07-tmux
   - title: Vue
     children: 
       - title: Vue 入门
         url: /collection/tech_notes/2019-05-19-vue
+  - title: 小程序
+    children:
+      - title:  前言
+        url:    /collection/tech_notes/00_introduction
+      - title:  最佳实践
+        url:    /collection/tech_notes/00_first
+      - title:  01 了解小程序的页面逻辑
+        url:    /collection/tech_notes/01_know_page
+      - title:  02 Hello, World | 写一个完整的页面
+        url:    /collection/tech_notes/02_first_page
+      - title:  03 实现页面交互 | 地图 API 的使用
+        url:    /collection/tech_notes/03_map_api_use
+      - title:  04 数据持久化保存 | Storage API 的使用
+        url:    /collection/tech_notes/04_storage_use
+      - title:  05 生成分享卡片 | Canvas 初使用
+        url:    /collection/tech_notes/05_canvas_first_use
+      - title:  06 页面数据（参数）传输的方式
+        url:    /collection/tech_notes/06_send_param_in_pages
+      - title:  07 如何使用第三方 npm 扩展包
+        url:    /collection/tech_notes/07_use_npm_package
+      - title:  08 如何调用第三方接口数据
+        url:    /collection/tech_notes/08_use_the_third_data
+      - title:  09 初步使用云函数开发
+        url:    /collection/tech_notes/09_cloud_function_develop
+      - title:  10 学会云函数的本地以及云端的测试
+        url:    /collection/tech_notes/10_cloud_function_test
+      - title:  11 从文档出发来聊一聊小程序的服务端开发
+        url:    /collection/tech_notes/11_cloud_develop_document
+      - title:  12 初步使用云开发中数据库的能力
+        url:    /collection/tech_notes/12_cloud_database_develop

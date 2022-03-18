@@ -217,7 +217,7 @@ defaults:
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
   - scope:
@@ -232,24 +232,24 @@ defaults:
       aside:
         toc: true
       lang: zh
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_date: true
       lightbox: true
-  - scope:
-      path: "_collection/miniprogram"
-      type: collection
-    values: 
-      layout: article
-      nav_key: docs
-      sidebar:
-        nav: collection-miniprogram
-      license: true
-      aside:
-        toc: true
-      lang: zh
-      show_edit_on_github: true
-      show_date: true
-      lightbox: true
+  # - scope:
+  #     path: "_collection/miniprogram"
+  #     type: collection
+  #   values: 
+  #     layout: article
+  #     nav_key: docs
+  #     sidebar:
+  #       nav: collection-miniprogram
+  #     license: true
+  #     aside:
+  #       toc: true
+  #     lang: zh
+  #     show_edit_on_github: true
+  #     show_date: true
+  #     lightbox: true
 
 
 ## => Plugins

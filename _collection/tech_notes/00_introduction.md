@@ -1,7 +1,7 @@
 ---
 title: 前言
 date: 2019-09-15
-permalink: /collection/miniprogram/00_introduction
+tags: 微信小程序
 ---
 
 这是作者在开发「字节加工厂」小程序的过程中，提炼出来的一些知识点，从零开始，开发一个微信小程序。
