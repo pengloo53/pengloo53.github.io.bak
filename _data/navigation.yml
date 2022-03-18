@@ -31,25 +31,25 @@ header:
       # @end locale config
     url: /archive.html
   - titles:
-      en      : &EN       Collection
-      zh-Hans : &ZH_HANS  合集
+      en      : &EN       Tech
+      zh-Hans : &ZH_HANS  技术
       zh      : *ZH_HANS
-    url: /collection.html
+    url: /collection/tech_notes/2014-05-04-Linux_basic
   - titles:
       en      : &EN       Product
-      zh-Hans : &ZH_HANS  作品
+      zh-Hans : &ZH_HANS  产品
       zh      : *ZH_HANS
     url: /product.html
   - title: 小专栏
     url: https://xiaozhuanlan.com/lupeng?rel=lupeng
   - titles:
       # @start locale config
-      en      : &EN       About
+      en      : &EN       AboutMe
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
+      zh-Hans : &ZH_HANS  关于我
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
@@ -65,7 +65,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /about.html
+    url: https://lupeng.notion.site/5265dab391574a0ab3be5c255d287d72
 
 collection-miniprogram:
   - title:      开始

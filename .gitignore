@@ -29,3 +29,6 @@ _site/
 
 .markeditor
 .Archive
+.metion
+
+.config

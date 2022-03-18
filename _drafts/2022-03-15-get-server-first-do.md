@@ -46,9 +46,9 @@ Windows 电脑建议提前安装 [Git 客户端](https://gitforwindows.org/)，�
 
 
 
-#### 安装 Git 和 Nginx
+#### 安装 Git、Nginx 以及 tmux
 
-很简单了，`yum install -y git nginx`  就可以了。
+很简单了，`yum install -y git nginx tmux`  就可以了。
 
 
 
