@@ -39,7 +39,7 @@ header:
       en      : &EN       Tech
       zh-Hans : &ZH_HANS  技术
       zh      : *ZH_HANS
-    url: /collection/tech_notes/2014-05-04-Linux_basic
+    url: /collection/tech_notes/00_introduction
   
   - title: 小专栏
     url: https://xiaozhuanlan.com/lupeng?rel=lupeng
@@ -105,27 +105,37 @@ header:
 #   - title:      实战篇
 
 collection-tech: 
-  - title: Linux
-    children: 
-      - title: 基础命令
-        url: /collection/tech_notes/2014-05-04-Linux_basic
-      - title: 当你拿到一台 Ubuntu 服务器 1
-        url: /collection/tech_notes/2017-06-05-ubuntu1
-      - title: 当你拿到一台 Ubuntu 服务器 2
-        url: /collection/tech_notes/2018-01-30-ubuntu2
-      - title: 当你拿到一台 Ubuntu 服务器 3
-        url: /collection/tech_notes/2018-05-21-ubuntu3
-      - title: 运维之道笔记 1
-        url: /collection/tech_notes/2014-12-09-Linux_1
-      - title: 运维之道笔记 2
-        url: /collection/tech_notes/2015-06-22-Linux_2
-      - title: LNMP环境搭建（CentOS+meiupic）
-        url: /collection/tech_notes/2015-03-29-centos-meiupic
-      - title: CentOS 7 搭建开源商城 prestashop
-        url: /collection/tech_notes/2018-07-27-centos7-prestashop
-      - title: 为了写操作手册，顺手搭了个文档管理系统
-        url: /collection/tech_notes/2018-12-12-mindoc
-  - title: Tools
+  - title: 小程序入门
+    children:
+      - title:  前言
+        url:    /collection/tech_notes/00_introduction
+      - title:  00 移动端开发最佳实践
+        url:    /collection/tech_notes/00_first
+      - title:  01 了解小程序的页面逻辑
+        url:    /collection/tech_notes/01_know_page
+      - title:  02 写一个完整的页面
+        url:    /collection/tech_notes/02_first_page
+      - title:  03 地图 API 的使用
+        url:    /collection/tech_notes/03_map_api_use
+      - title:  04 Storage API 的使用
+        url:    /collection/tech_notes/04_storage_use
+      - title:  05 Canvas 初使用
+        url:    /collection/tech_notes/05_canvas_first_use
+      - title:  06 页面传参的方式
+        url:    /collection/tech_notes/06_send_param_in_pages
+      - title:  07 第三方 npm 扩展包使用
+        url:    /collection/tech_notes/07_use_npm_package
+      - title:  08 第三方接口数据的调用
+        url:    /collection/tech_notes/08_use_the_third_data
+      - title:  09 初步使用云函数开发
+        url:    /collection/tech_notes/09_cloud_function_develop
+      - title:  10 云函数的本地及云端调试方法
+        url:    /collection/tech_notes/10_cloud_function_test
+      - title:  11 小程序的服务端开发
+        url:    /collection/tech_notes/11_cloud_develop_document
+      - title:  12 云开发中数据库的使用
+        url:    /collection/tech_notes/12_cloud_database_develop
+  - title: 运维工具
     children: 
       - title: Git 基础
         url: /collection/tech_notes/2014-05-16-Git-common
@@ -137,37 +147,50 @@ collection-tech:
         url: /collection/tech_notes/2014-10-19-Vim_plugin
       - title: tmux 基础操作
         url: /collection/tech_notes/2016-08-07-tmux
-  - title: Vue
+  - title: Linux 笔记
+    children: 
+      - title: 基础命令
+        url: /collection/tech_notes/2014-05-04-Linux_basic
+      - title: 运维之道笔记 1
+        url: /collection/tech_notes/2014-12-09-Linux_1
+      - title: 运维之道笔记 2
+        url: /collection/tech_notes/2015-06-22-Linux_2
+      - title: Ubuntu Ready Go
+        url: /collection/tech_notes/2017-06-05-ubuntu1
+      - title: Ubuntu 搭建静态网站
+        url: /collection/tech_notes/2018-01-30-ubuntu2
+      - title: Ubuntu 搭建Ghost博客
+        url: /collection/tech_notes/2018-05-21-ubuntu3
+      - title: CentOS 搭建开源图库
+        url: /collection/tech_notes/2015-03-29-centos-meiupic
+      - title: CentOS 搭建开源商城
+        url: /collection/tech_notes/2018-07-27-centos7-prestashop
+      - title: CentOS 搭建文档管理系统
+        url: /collection/tech_notes/2018-12-12-mindoc
+  - title: Node 笔记
+    children:
+      - title: 评分系统（一）
+        url: collection/tech_notes/2016-10-18-Node项目之评分系统（一）
+      - title: 评分系统（二）
+        url: collection/tech_notes/2016-10-19-Node项目之评分系统（二）
+      - title: 评分系统（三）
+        url: collection/tech_notes/2016-10-21-Node项目之评分系统（三）
+      - title: 需求收集系统（一）
+        url: collection/tech_notes/2016-11-29-Node项目之需求收集平台（一）
+      - title: 需求收集系统（二）
+        url: collection/tech_notes/2016-11-30-Node项目之需求收集平台（二）
+      - title: 需求收集系统（三）
+        url: collection/tech_notes/2016-12-07-node-project-require-cookie
+      - title: 连接数据库
+        url: collection/tech_notes/2016-12-22-express-connect-mysql
+      - title: 使用配置文件
+        url: collection/tech_notes/2017-05-15-Node-use-config-files
+      - title: 页面渲染传参的方式
+        url: collection/tech_notes/2017-06-06-use-flash-in-express
+      - title: 不同环境下配置文件使用
+        url: collection/tech_notes/2017-06-23-use-config-files-Node
+  - title: 前端笔记
     children: 
       - title: Vue 入门
         url: /collection/tech_notes/2019-05-19-vue
-  - title: 小程序
-    children:
-      - title:  前言
-        url:    /collection/tech_notes/00_introduction
-      - title:  最佳实践
-        url:    /collection/tech_notes/00_first
-      - title:  01 了解小程序的页面逻辑
-        url:    /collection/tech_notes/01_know_page
-      - title:  02 Hello, World | 写一个完整的页面
-        url:    /collection/tech_notes/02_first_page
-      - title:  03 实现页面交互 | 地图 API 的使用
-        url:    /collection/tech_notes/03_map_api_use
-      - title:  04 数据持久化保存 | Storage API 的使用
-        url:    /collection/tech_notes/04_storage_use
-      - title:  05 生成分享卡片 | Canvas 初使用
-        url:    /collection/tech_notes/05_canvas_first_use
-      - title:  06 页面数据（参数）传输的方式
-        url:    /collection/tech_notes/06_send_param_in_pages
-      - title:  07 如何使用第三方 npm 扩展包
-        url:    /collection/tech_notes/07_use_npm_package
-      - title:  08 如何调用第三方接口数据
-        url:    /collection/tech_notes/08_use_the_third_data
-      - title:  09 初步使用云函数开发
-        url:    /collection/tech_notes/09_cloud_function_develop
-      - title:  10 学会云函数的本地以及云端的测试
-        url:    /collection/tech_notes/10_cloud_function_test
-      - title:  11 从文档出发来聊一聊小程序的服务端开发
-        url:    /collection/tech_notes/11_cloud_develop_document
-      - title:  12 初步使用云开发中数据库的能力
-        url:    /collection/tech_notes/12_cloud_database_develop
+  

@@ -1,5 +1,5 @@
 ---
-title: 了解express的路由方法 - Node实战
+title: 了解express的路由方法
 date: 2017-06-23
 tags: [node]
 ---

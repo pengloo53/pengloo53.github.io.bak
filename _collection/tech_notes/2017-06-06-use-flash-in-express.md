@@ -1,5 +1,5 @@
 ---
-title: 页面渲染传参的方式 - Node实战
+title: 页面渲染传参的方式
 date: 2017-06-06
 tags: [node]
 ---
