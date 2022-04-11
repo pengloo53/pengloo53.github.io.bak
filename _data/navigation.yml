@@ -30,6 +30,11 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
+  # - titles:
+  #     en      : &EN       Sumary
+  #     zh-Hans : &ZH_HANS  周总结
+  #     zh      : *ZH_HANS
+  #   url: /collection/week_sumary/2022-04-03-week-sumary
   - titles:
       en      : &EN       Product
       zh-Hans : &ZH_HANS  产品
@@ -40,69 +45,19 @@ header:
       zh-Hans : &ZH_HANS  技术
       zh      : *ZH_HANS
     url: /collection/tech_notes/00_introduction
-  
-  - title: 小专栏
-    url: https://xiaozhuanlan.com/lupeng?rel=lupeng
   - titles:
-      # @start locale config
-      en      : &EN       AboutMe
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于我
+      en      : &EN       About
+      zh-Hans : &ZH_HANS  关于
       zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: https://lupeng.notion.site/5265dab391574a0ab3be5c255d287d72
+    url: /about.html
 
-# collection-miniprogram:
-#   - title:      开始
-#     children:
-#       - title:  前言
-#         url:    /collection/miniprogram/00_introduction
-#       - title:  最佳实践
-#         url:    /collection/miniprogram/00_first
-#   - title:      入门篇
-#     children:
-#       - title:  了解小程序的页面逻辑
-#         url:    /collection/miniprogram/01_know_page
-#       - title:  Hello, World | 写一个完整的页面
-#         url:    /collection/miniprogram/02_first_page
-#       - title:  实现页面交互 | 地图 API 的使用
-#         url:    /collection/miniprogram/03_map_api_use
-#       - title:  数据持久化保存 | Storage API 的使用
-#         url:    /collection/miniprogram/04_storage_use
-#       - title:  生成分享卡片 | Canvas 初使用
-#         url:    /collection/miniprogram/05_canvas_first_use
-#       - title:  页面数据（参数）传输的方式
-#         url:    /collection/miniprogram/06_send_param_in_pages
-#       - title:  如何使用第三方 npm 扩展包
-#         url:    /collection/miniprogram/07_use_npm_package
-#       - title:  如何调用第三方接口数据
-#         url:    /collection/miniprogram/08_use_the_third_data
-#       - title:  初步使用云函数开发
-#         url:    /collection/miniprogram/09_cloud_function_develop
-#       - title:  学会云函数的本地以及云端的测试
-#         url:    /collection/miniprogram/10_cloud_function_test
-#       - title:  从文档出发来聊一聊小程序的服务端开发
-#         url:    /collection/miniprogram/11_cloud_develop_document
-#       - title:  初步使用云开发中数据库的能力
-#         url:    /collection/miniprogram/12_cloud_database_develop
-#   - title:      效率篇
-#   - title:      实战篇
+collection-sumary:
+  - title:  2022 年 4 月
+    children:
+      - title:  人到中年，身体扛不住了
+        url:    /collection/week_sumary/2022-04-03-week-sumary
+      - title:  清明假期后的职场危机
+        url:    /collection/week_sumary/2022-04-11-week-sumary
 
 collection-tech: 
   - title: 小程序入门

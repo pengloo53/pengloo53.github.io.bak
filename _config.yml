@@ -74,7 +74,7 @@ paths:
 excerpt_separator: <!-- more -->
 
 ## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+license: CC-BY-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
 ## TOC
 toc:
@@ -235,21 +235,21 @@ defaults:
       show_edit_on_github: false
       show_date: true
       lightbox: true
-  # - scope:
-  #     path: "_collection/miniprogram"
-  #     type: collection
-  #   values: 
-  #     layout: article
-  #     nav_key: docs
-  #     sidebar:
-  #       nav: collection-miniprogram
-  #     license: true
-  #     aside:
-  #       toc: true
-  #     lang: zh
-  #     show_edit_on_github: true
-  #     show_date: true
-  #     lightbox: true
+  - scope:
+      path: "_collection/week_sumary"
+      type: collection
+    values: 
+      layout: article
+      nav_key: docs
+      sidebar:
+        nav: collection-sumary
+      license: true
+      aside:
+        toc: true
+      lang: zh
+      show_edit_on_github: false
+      show_date: true
+      lightbox: true
 
 
 ## => Plugins
