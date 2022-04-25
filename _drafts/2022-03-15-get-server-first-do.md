@@ -54,3 +54,17 @@ Windows 电脑建议提前安装 [Git 客户端](https://gitforwindows.org/)，�
 
 
 
+
+
+### Linux
+
+查看 Linux 内核版本
+
+- cat /proc/version
+- uname -a
+
+查看 Linux 发行版
+
+- cat /etc/issue
+
+- lsb_release -a
