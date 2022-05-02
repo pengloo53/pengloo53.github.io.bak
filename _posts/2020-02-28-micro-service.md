@@ -40,9 +40,9 @@ tags: [微服务,分享会]
 - [SOA,ESB,WebService的关系-IT·Ren](http://itren.xiaolee.net/p/2314815.html)
 - [Web 服务编程，REST 与 SOAP](https://www.ibm.com/developerworks/cn/webservices/0907_rest_soap/index.html)
 - [什么是微服务架构？ - 知乎](https://www.zhihu.com/question/65502802)
-- [What is SOA (Service-Oriented Architecture)? | IBM](https://www.ibm.com/cloud/learn/soa)
-- [What is an ESB (Enterprise Service Bus)? | IBM](https://www.ibm.com/cloud/learn/esb)
-- [What are Microservices? | IBM](https://www.ibm.com/cloud/learn/microservices)
+- [What is SOA (Service-Oriented Architecture)? ](https://www.ibm.com/cloud/learn/soa)
+- [What is an ESB (Enterprise Service Bus)?](https://www.ibm.com/cloud/learn/esb)
+- [What are Microservices?](https://www.ibm.com/cloud/learn/microservices)
 
 如果对微服务感兴趣的话，上面这些资料倒是不错的入门信息，不妨先看看。
 
