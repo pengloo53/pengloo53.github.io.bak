@@ -44,7 +44,7 @@ header:
       en      : &EN       Tech
       zh-Hans : &ZH_HANS  技术
       zh      : *ZH_HANS
-    url: /collection/tech_notes/00_introduction
+    url: /collection/tech_notes/index
   - titles:
       en      : &EN       About
       zh-Hans : &ZH_HANS  关于
