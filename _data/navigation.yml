@@ -30,11 +30,11 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
-  # - titles:
-  #     en      : &EN       Sumary
-  #     zh-Hans : &ZH_HANS  周总结
-  #     zh      : *ZH_HANS
-  #   url: /collection/week_sumary/2022-04-03-week-sumary
+  - titles:
+      en      : &EN       Sumary
+      zh-Hans : &ZH_HANS  周总结
+      zh      : *ZH_HANS
+    url: /collection/week_sumary/index
   - titles:
       en      : &EN       Product
       zh-Hans : &ZH_HANS  产品
@@ -52,12 +52,24 @@ header:
     url: /about.html
 
 collection-sumary:
-  - title:  2022 年 4 月
+  # - title : 周总结
+  #   children:
+  #     - title: 前言
+  #       url: /collection/week_sumary/index
+  - title:  Vol.202204
     children:
       - title:  人到中年，身体扛不住了
         url:    /collection/week_sumary/2022-04-03-week-sumary
       - title:  清明假期后的职场危机
         url:    /collection/week_sumary/2022-04-11-week-sumary
+      - title:  在 toG 做产品
+        url:    /collection/week_sumary/2022-04-18-week-sumary
+      - title:  躺平也挺好
+        url:    /collection/week_sumary/2022-04-25-week-sumary
+  - title: Vol.202205
+    # children:
+    #   - title: 一些本能驱动的工作
+    #     url:    /collection/week_sumary/2022-05-08-week-sumary
 
 collection-tech: 
   - title: 小程序入门
