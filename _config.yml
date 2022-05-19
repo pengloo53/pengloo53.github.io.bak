@@ -236,13 +236,13 @@ defaults:
       show_date: true
       lightbox: true
   - scope:
-      path: "_collection/week_sumary"
+      path: "_collection/week_summary"
       type: collection
     values: 
       layout: article
       nav_key: docs
       sidebar:
-        nav: collection-sumary
+        nav: collection-summary
       license: true
       aside:
         toc: true

@@ -1,15 +1,12 @@
 ---
 title: Index
-tags: sumary
+tags: summary
+key: week-summary
 ---
 
 
 
-归档总结性的文章，目前分为 3 个方向：
-
-
-
-每月归档总结性的文章，目前有 3 个方向：
+归档总结性的文章，目前有 3 个方向：
 
 - 我的 100
 - 周总结
