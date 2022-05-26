@@ -32,9 +32,14 @@ header:
     url: /archive.html
   - titles:
       en      : &EN       Sumary
-      zh-Hans : &ZH_HANS  周总结
+      zh-Hans : &ZH_HANS  周报
       zh      : *ZH_HANS
     url: /collection/week_summary/index
+  - titles:
+      en      : &EN       Point
+      zh-Hans : &ZH_HANS  观点
+      zh      : *ZH_HANS
+    url: /collection/view_point/index
   - titles:
       en      : &EN       Product
       zh-Hans : &ZH_HANS  产品
@@ -51,25 +56,48 @@ header:
       zh      : *ZH_HANS
     url: /about.html
 
+collection-point:
+  - title: 我的价值观
+    children: 
+      - title: 选择比努力重要吗？
+        url: /collection/view_point/100-choice
+  - title: 我的方法论
+    children:
+      - title: 如何从 0 到 1 做一款产品
+        url: /collection/view_point/2019-11-24-product-0-1
+      - title: toG 产品的流程和感受
+        url: /collection/view_point/2020-10-27-toG
+      - title: 如何写项目复盘报告
+        url: /collection/view_point/2021-04-18-how-to-write-summary-report
+      - title: 如何写个人述职报告
+        url: /collection/view_point/2021-04-30-self-career-report
+      - title: 如何做需求管理
+        url: /collection/view_point/2021-06-07-requirement-manage
+      - title: 如何写 PPT
+        url: /collection/view_point/2021-08-30-ppt
+
 collection-summary:
   # - title : 周总结
   #   children:
   #     - title: 前言
-  #       url: /collection/week_sumary/index
+  #       url: /collection/week_summary/index
+  - title: Vol.202205
+    children:
+      - title: 疫情缘故居家办公了
+        url:    /collection/week_summary/2022-05-16-week-summary
+      - title: 一些本能驱动的工作
+        url:    /collection/week_summary/2022-05-08-week-summary
   - title:  Vol.202204
     children:
-      - title:  人到中年，身体扛不住了
-        url:    /collection/week_summary/2022-04-03-week-summary
-      - title:  清明假期后的职场危机
-        url:    /collection/week_summary/2022-04-11-week-summary
-      - title:  在 toG 做产品
-        url:    /collection/week_summary/2022-04-18-week-summary
       - title:  躺平也挺好
         url:    /collection/week_summary/2022-04-25-week-summary
-  - title: Vol.202205
-    # children:
-    #   - title: 一些本能驱动的工作
-    #     url:    /collection/week_sumary/2022-05-08-week-summary
+      - title:  在 toG 做产品
+        url:    /collection/week_summary/2022-04-18-week-summary
+      - title:  清明假期后的职场危机
+        url:    /collection/week_summary/2022-04-11-week-summary
+      - title:  人到中年，身体扛不住了
+        url:    /collection/week_summary/2022-04-03-week-summary
+
 
 collection-tech: 
   - title: 小程序入门
@@ -96,7 +124,7 @@ collection-tech:
         url:    /collection/tech_notes/08_use_the_third_data
       - title:  09 初步使用云函数开发
         url:    /collection/tech_notes/09_cloud_function_develop
-      - title:  10 云函数的本地及云端调试方法
+      - title:  10 云函数本地及云端调试方法
         url:    /collection/tech_notes/10_cloud_function_test
       - title:  11 小程序的服务端开发
         url:    /collection/tech_notes/11_cloud_develop_document
