@@ -3,7 +3,7 @@
 
 {%- if include.license -%}
 
-  {%-assign _license_name = '<a itemprop="license" rel="license" href="[URL]" title="[NAME]">[NAME]</a>' | replace: "[URL]", include.license.url | replace: "[NAME]", include.license.name -%}
+  {%-assign _license_name = '<a itemprop="license" rel="license" href="[URL]" title="[NAME]">[SHORT]</a>' | replace: "[URL]", include.license.url | replace: "[NAME]", include.license.name | replace: "[SHORT]", site.license -%}
   <div class="license">
     <p>
       <a rel="license" href="{{ include.license.url }}">
