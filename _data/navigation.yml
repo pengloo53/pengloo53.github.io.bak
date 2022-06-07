@@ -81,8 +81,11 @@ collection-summary:
   #   children:
   #     - title: 前言
   #       url: /collection/week_summary/index
+  - title: Vol.202206
   - title: Vol.202205
     children:
+      - title: 关在家里已经三周了
+        url: /collection/week_summary/2022-05-29-week-summary
       - title: 疫情缘故居家办公了
         url:    /collection/week_summary/2022-05-16-week-summary
       - title: 一些本能驱动的工作
