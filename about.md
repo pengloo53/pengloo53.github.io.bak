@@ -19,7 +19,7 @@ key: page-about
 
 - 系统控，折腾过任何操作系统，也热爱折腾
 - 软件控，手机装满了各类 App，有轻微的用户体验及视觉洁癖
-- 工具控，偶尔也会基于自己的需求，做一些小工具，例如：微信小程序「字节加工厂」（已弃坑），以及最近在做的 [Kindle2flomo](http://kindle2flomo.90byte.com/index.html)（暂停）
+- 工具控，偶尔也会基于自己的需求，做一些小工具
 
 ### 我的经历
 
@@ -34,46 +34,41 @@ key: page-about
 - 2020-2021，加入了[奇安信](https://www.qianxin.com/)，一家在信息安全领域超大体量的 toG 集团公司，原以为这可能是我职业生涯的最后一家公司了，没想到还是低估了自己那颗叛逆不安现状的心。
 - 2021-至今，加入另一家做信息安全的公司，做数据安全相关产品。
 
+### 我的观点
 
+将之前写的一些文章，整理了一下，做成了合集：[观点](/collection/view_point/index)，主要包含两个主题：
 
-相关文章：
+- 我的价值观
+- 我的方法论
 
-- [这两年频繁跳槽的根本原因](https://mp.weixin.qq.com/s/Sdd4uw6vHtNzgxzHB4L2rg)
+这个合集的内容将是动态的，随着自身的认知和经历的变化而更新。
 
-- [近两年最深刻的自我总结：我的成长，我的经历，我的悲观，我的理想](https://mp.weixin.qq.com/s?__biz=MjM5MDQ4NjUwMg==&mid=2649198349&idx=1&sn=447de65c26524e56b5213bfd73b6778f&chksm=be5735848920bc923fdd2abe40fba831c992082061d9f238b280d4d65c849148fdccb07fc14b&token=1584174037&lang=zh_CN#rd)
+### 我的产品
 
-### 我的职场观
+自学过一些编程技能，总结写了一些笔记，同样做了一个合集：[技术](/collection/tech_notes/index)，在此基础之上，尝试着做过一些小工具。
 
-情绪低迷的时候，我也会疑惑迷茫，我的选择真的就是对的吗？我真的要这样一直在职场中待下去吗？我能够一直待下去吗？
+遗憾的是，几乎没有拿得出手的，还在运行的，包括：
 
-如果要一直这样待下去，我该提前做些什么准备？不提前准备就甘心等着被淘汰吗？
+- [Kindle to flomo](http://kindle2flomo.90byte.com/index.html)
+- [公众号原生样式 Markdown 编辑器](http://md2wechat.90byte.com/index.html)
+- 字节加工厂（一款微信小程序）
 
-如果不这样待下去，我又能去做点什么？做的那个事情，足够支撑我的生活吗？
+以上基本都没有在更新了。
 
-
-
-相关文章：
-
-- [发生在身边的中年失业故事](https://mp.weixin.qq.com/s?__biz=MjM5MDQ4NjUwMg==&mid=2649198630&idx=1&sn=3f32ac50b21b00d37e2af82fd8fb657c&chksm=be572aaf8920a3b9b133c3c07b4edc909db6fa97c952296969084f0f5edecfa9957b6923ea30&scene=178&cur_album_id=1583605393820286976#rd)
-
-- [从被优化掉的独立咨询顾问，聊到「自由」职业，聊到人生「选择」](https://mp.weixin.qq.com/s?__biz=MjM5MDQ4NjUwMg==&mid=2649198639&idx=1&sn=9dfd27a974abc241625ffddbd90ea582&chksm=be572aa68920a3b02ca960a4c53482563d2e5ed6276672cee56ff75cff2ac8f4e95c070d21ac&scene=178&cur_album_id=1583605393820286976#rd)
-
-### 想做的产品
-
-- 一款记录工具（记账、记时间、记日志）
-- 一款读书笔记整理工具
-
-### 联系我
-
-- 邮箱：lupeng@90byte.com
-- 微信：reallupeng，天性慢热，闲聊请自备话题
+未来想做的：一款记录工具（记账、记时间、记日志）
 
 ### 关注我
 
 - 微信公众号：[i90byte](http://mp.weixin.qq.com/s?__biz=MjM5MDQ4NjUwMg==&mid=2649198549&idx=1&sn=632d4d005ec3efa9b7400bbca5a2a60c&chksm=be57355c8920bc4af1487ee4c648e97ed191838927215b4f7aa833654c1644e82441406563ec#rd)，想写啥就发点啥
-- 即刻：lupeng，记录打工人的叨叨
+- 即刻：lupeng，日常叨叨
 - Ins：lupeng，记录生活
 
 ### 支持我
 
 - [小专栏](https://xiaozhuanlan.com/lupeng?rel=lupeng)
+
+### 联系我
+
+- 邮箱：lupeng@90byte.com，
+- 微信：reallupeng，加好友，请务必备注出处，否则看心情通过了。另外，天性慢热，闲聊请自备话题
+
