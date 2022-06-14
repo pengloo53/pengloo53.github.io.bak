@@ -40,11 +40,11 @@ header:
       zh-Hans : &ZH_HANS  观点
       zh      : *ZH_HANS
     url: /collection/view_point/index
-  - titles:
-      en      : &EN       Product
-      zh-Hans : &ZH_HANS  产品
-      zh      : *ZH_HANS
-    url: /product.html
+  # - titles:
+  #     en      : &EN       Product
+  #     zh-Hans : &ZH_HANS  产品
+  #     zh      : *ZH_HANS
+  #   url: /product.html
   - titles:
       en      : &EN       Tech
       zh-Hans : &ZH_HANS  技术
