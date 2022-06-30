@@ -82,6 +82,11 @@ collection-summary:
   #     - title: 前言
   #       url: /collection/week_summary/index
   - title: Vol.202206
+    children: 
+      - title: 恢复正常工作的 6 月
+        url: /collection/week_summary/2022-06-26-week-summary
+      - title: 儿童节这天解封了
+        url: /collection/week_summary/2022-06-05-week-summary
   - title: Vol.202205
     children:
       - title: 关在家里已经三周了
