@@ -236,21 +236,6 @@ defaults:
       show_date: true
       lightbox: true
   - scope:
-      path: "_collection/week_summary"
-      type: collection
-    values: 
-      layout: article
-      nav_key: docs
-      sidebar:
-        nav: collection-summary
-      license: true
-      aside:
-        toc: true
-      lang: zh
-      show_edit_on_github: false
-      show_date: true
-      lightbox: true
-  - scope:
       path: "_collection/view_point"
       type: collection
     values: 

@@ -34,7 +34,7 @@ header:
       en      : &EN       Sumary
       zh-Hans : &ZH_HANS  周报
       zh      : *ZH_HANS
-    url: /collection/week_summary/index
+    url: /weekly.html
   - titles:
       en      : &EN       Point
       zh-Hans : &ZH_HANS  观点
@@ -75,36 +75,6 @@ collection-point:
         url: /collection/view_point/2021-06-07-requirement-manage
       - title: 如何写 PPT
         url: /collection/view_point/2021-08-30-ppt
-
-collection-summary:
-  # - title : 周总结
-  #   children:
-  #     - title: 前言
-  #       url: /collection/week_summary/index
-  - title: Vol.202206
-    children: 
-      - title: 恢复正常工作的 6 月
-        url: /collection/week_summary/2022-06-26-week-summary
-      - title: 儿童节这天解封了
-        url: /collection/week_summary/2022-06-05-week-summary
-  - title: Vol.202205
-    children:
-      - title: 关在家里已经三周了
-        url: /collection/week_summary/2022-05-29-week-summary
-      - title: 疫情缘故居家办公了
-        url:    /collection/week_summary/2022-05-16-week-summary
-      - title: 一些本能驱动的工作
-        url:    /collection/week_summary/2022-05-08-week-summary
-  - title:  Vol.202204
-    children:
-      - title:  躺平也挺好
-        url:    /collection/week_summary/2022-04-25-week-summary
-      - title:  在 toG 做产品
-        url:    /collection/week_summary/2022-04-18-week-summary
-      - title:  清明假期后的职场危机
-        url:    /collection/week_summary/2022-04-11-week-summary
-      - title:  人到中年，身体扛不住了
-        url:    /collection/week_summary/2022-04-03-week-summary
 
 
 collection-tech: 
