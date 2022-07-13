@@ -2,25 +2,48 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       My Weekly
+  en      : &EN       Summary
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  我的周总结
+  zh-Hans : &ZH_HANS  我的总结
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
   # @end locale config
 key: week-summary
+---
+
+## 方法论
+
+这个主题是我在工作中积累的一些方法论。可能涉及产品、技术以及工作流程等方面。这块可能是我所有的文章中，对他人最有用的部分。里面多篇内容毕竟也是被大厂的宣传号转发过的。
+
+内容主要来源于工作中的总结，强烈正相关职场的丰富度。
+
+更新周期：不定。
+
+### 方法
+
+- [如何从 0 到 1 做一款产品](/2019/11/24/product-0-1.html)
+- [如何做需求管理](/2021/06/07/requirement-manage.html)
+- [toG 产品的工作流程](/2020/10/29/toG.html)
+
+### 报告
+
+- [如何写 PPT](/2021/08/30/ppt.html)
+- [如何写项目复盘报告](/2021/04/18/how-to-write-summary-report.html)
+- [如何写个人述职报告](/2021/04/30/self-career-report.html)
+- [如何写需求规划报告](/2022/07/12/requirement-planning.html)
+
 
 ---
+
+## 周总结
 
 每周总结自己的日志（流水账，不公开），从中找一些有价值的信息，便形成了周报。这些内容对他人可能没有多大价值，但对我至关重要。
 
 更新周期：每周 or 每双周
-
----
 
 ### Vol.202204
 
@@ -43,6 +66,7 @@ key: week-summary
 ### Vol.202207
 
 - [略显悲观的产品工作](/2022/07/03/week-summary.html)
+- [一个人的孤独](/2022/07/13/week-summary.html)
 
 
 
