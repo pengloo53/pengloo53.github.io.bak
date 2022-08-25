@@ -1,3 +1,13 @@
 <!-- start custom head snippets -->
-
+<script>
+    var link = document.createElement("link");
+    link.setAttribute('rel', 'stylesheet');
+    if (matchMedia('(prefers-color-scheme: dark)').matches){
+        link.setAttribute('href', "/assets/css/main-dark.css")
+    }else{
+        link.setAttribute('href', "/assets/css/main-light.css")
+    }
+    var head = document.getElementsByTagName('head')[0]
+    head.appendChild(link)
+</script>
 <!-- end custom head snippets -->
