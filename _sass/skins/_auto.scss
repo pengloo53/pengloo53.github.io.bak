@@ -1,0 +1,5 @@
+@import "skins/default";
+
+@media (prefers-color-scheme: dark) {
+   @import "skins/dark";
+}

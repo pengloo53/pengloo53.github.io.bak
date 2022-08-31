@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "skins/default";
+
+// @media (prefers-color-scheme: dark) {
+//    @import "skins/dark";
+// }
+
+@import
+    "common/variables",
+    "common/function",
+    "common/classes",
+    "common/reset",
+    "common/print",
+    
+    "common/components",
+
+    "additionals",
+    "animate",
+    "components",
+    "layout"
+;
