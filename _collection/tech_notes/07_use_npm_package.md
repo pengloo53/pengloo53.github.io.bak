@@ -50,14 +50,7 @@ npm i dayjs --production
 ### 页面改写
 打开 days 的 index.wxml 文件，将页面静态内容替换成变量，代码如下：
 
-```html
-<view class="list" bindtap='goto' data-title="{{ day.title }}" data-date="{{ day.date }}" data-isPast="{{ day.isPast }}" data-number="{{ day.number }}">
-  <view class="title">{{ day.title }}</view>
-  <view class="date-number {{ day.isPast?'primary':'danger' }}">{{ day.number }}</view>
-  <view class="date-desc">{{ day.isPast?"已过天数":"还剩天数" }}</view>
-  <view class="desc">{{ day.date }}</view>
-</view>
-```
+![](/image/collection/miniprogram/carbon.png)
 
 可以看出，从逻辑层传过来一个 day 的对象。
 
