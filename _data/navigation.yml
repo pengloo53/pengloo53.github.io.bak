@@ -76,6 +76,8 @@ collection-tech:
         url:    /collection/tech_notes/2022-09-30-docker-3
       - title:  Docker Componse
         url:    /collection/tech_notes/2022-10-09-docker-4
+      - title:  Docker 发布镜像
+        url:    /collection/tech_notes/2022-10-09-docker-push
   - title: 小程序入门
     children:
       - title:  前言
